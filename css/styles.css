@@ -12,6 +12,23 @@
 	--white: #fff;
 	--dairy: #fcfcfc;
 }
+/*   Roboto */
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+}
+
+/*  Roboto */
+strong {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+}
+
+/* Roboto */
+.bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Жирный */
+}
 body {
     background-color: var(--white);
     color: var(--slate);
