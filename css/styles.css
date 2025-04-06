@@ -49,10 +49,10 @@ a {
 ul {
     list-style-type: none;
 }
-.header-logo-part{
+.header-logo{
     color: var(--iris);
 }
-.header-logo{
+.header-logo-part{
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
