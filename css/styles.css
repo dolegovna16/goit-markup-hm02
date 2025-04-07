@@ -64,7 +64,7 @@ ul {
 .footer-logo{
     color: #f4f4fd;
 }
-.header-nav-item-link{
+.nav-link{
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -78,8 +78,8 @@ ul {
 }
 .header-address-list-link:hover,
 .header-address-list-link:focus,
-.header-nav-item-link:hover,
-.header-nav-item-link:focus{
+.nav-link:hover,
+.nav-link:focus{
     color: #404bbf;
 }
 
