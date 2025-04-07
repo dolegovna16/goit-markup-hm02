@@ -50,17 +50,19 @@ ul {
     list-style-type: none;
 }
 .header-logo{
-    color: #4d5ae5;
-    font-weight: 700;
+    color: #2e2f42;
 }
 .header-logo-part{
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
+}
+.footer-logo{
+    color: #f4f4fd;
 }
 .header-nav-item-link{
     font-family: var(--font-family);
