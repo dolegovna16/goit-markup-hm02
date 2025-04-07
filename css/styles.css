@@ -79,8 +79,7 @@ ul {
 .header-address-list-link:hover,
 .header-address-list-link:focus,
 .header-nav-item-link:hover,
-.header-nav-item-link:focus
- {
+.header-nav-item-link:focus{
     color: #404bbf;
 }
 
