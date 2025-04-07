@@ -76,11 +76,11 @@ ul {
 .header .header-link-contact {
     color: var(--slate);
 }
-.header .header-nav-item-link:hover {
+.header .header-address-list-link:hover {
     color: #404bbf;
 }
 
-.header .header-nav-item-link:focus {
+.header .header-address-list-link:focus {
     color: #404bbf;
 }
 .header-address-list-link{
