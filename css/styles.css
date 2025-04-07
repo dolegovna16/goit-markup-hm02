@@ -71,17 +71,19 @@ ul {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+
 }
 .header .header-link-contact {
     color: var(--slate);
 }
-.header-address-list-link:hover {
+.header-address-list-link:hover,
+.header-address-list-link:focus,
+.header-nav-item-link:hover,
+.header-nav-item-link:focus
+ {
     color: #404bbf;
 }
 
-.header-address-list-link:focus {
-    color: #404bbf;
-}
 .header-address-list-link{
     font-family: var(--font-family);
     font-weight: 400;
