@@ -1,0 +1,206 @@
+:root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+}
+/*   Roboto */
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+}
+
+/*  Roboto */
+strong {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+}
+
+/* Roboto */
+.bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Жирный */
+}
+body {
+    background-color: var(--white);
+    color: var(--slate);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
+/* Header */
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+}
+.header-logo{
+    color: #2e2f42;
+}
+.header-logo-part{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.footer-logo{
+    color: #f4f4fd;
+}
+.nav-link{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+
+}
+.header .header-link-contact {
+    color: var(--slate);
+}
+.header-address-list-link:hover,
+.header-address-list-link:focus,
+.nav-link:hover,
+.nav-link:focus{
+    color: #404bbf;
+}
+
+.header-address-list-link{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+.header-contacts{
+    font-style: normal;
+}
+.title{
+    background: var(--navy-blue);
+}
+/* One section */
+.title-name{
+    font-weight: 700;
+    font-size: 56px;
+    color: var(--white);
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.title-button{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background-color: var(--iris);
+    text-align: center;
+    cursor: pointer;
+}
+.title .title-button:hover {
+    background-color:  #404bbf;
+}
+
+.title .title-button:focus {
+    background-color: #404bbf;
+}
+/* two section */
+.about-us-title{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.about-us-text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+/* three section */
+.team{
+    background-color: var(--cloud);
+}
+.team-title{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+.team-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.team-name-position{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+.team-list-item {
+    background-color: var(--white);
+}
+/* four section */
+.portfolio-title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+    text-transform: capitalize;
+}
+.portfolio-name{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.portfolio-text-p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+/* footer */
+.footer {
+    background-color: var(--navy-blue);
+}
+.footer-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    color: var(--cloud);
+}
